@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
 <title>SQL Server</title>
 <rect width="256" height="256" rx="60" fill="#242938"/>
-<ellipse cx="128" cy="78" rx="62" ry="22" fill="#cc2927"/>
+<g transform="translate(128 139) scale(1.32) translate(-128 -139)"><ellipse cx="128" cy="78" rx="62" ry="22" fill="#cc2927"/>
 <path d="M66 78 V178 Q66 200 128 200 Q190 200 190 178 V78 Q190 100 128 100 Q66 100 66 78 Z" fill="#a91d22"/>
 <path d="M66 112 Q66 134 128 134 Q190 134 190 112 M66 146 Q66 168 128 168 Q190 168 190 146" stroke="#e8686a" stroke-width="6" fill="none"/>
-<text x="128" y="160" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="46" font-weight="800" fill="#ffffff">SQL</text>
+<text x="128" y="160" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="46" font-weight="800" fill="#ffffff">SQL</text></g>
 </svg>
