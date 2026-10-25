@@ -1,50 +1,37 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Saulo Rocha, Líder de Guilda, à frente da guilda: Antigravity, Cursor, Codex e o Claude" width="100%">
-  <br>
-  <sub>A guilda: Antigravity, Cursor, Codex e o Claude (o Invocador, que orquestra os subagentes, e o Engenheiro). No quadro, Azure DevOps e Jira; no céu, o correio do Teams.</sub>
+  <a href="https://www.linkedin.com/in/soulrocha"><img src="assets/perfil/heroi.svg" width="64%" alt="Saulo Rocha, Líder de Guilda: Coordenador de Tecnologia e Desenvolvimento na LUZA Group"></a>
+  <a href="https://www.linkedin.com/in/soulrocha"><img src="assets/perfil/linkedin.svg" width="34%" alt="Vamos conversar no LinkedIn: in/soulrocha"></a>
 </p>
 
-Oi! Sou o Saulo. Coordeno o time de Tecnologia e Desenvolvimento na **LUZA Group**. Antes, na **DTI Digital**, passei por dev full stack, Scrum Master e Squad Leader de times de sistemas corporativos e integrações.
-
-Gosto de dar ao time referências claras de trabalho: revisão de código, documentação e um fluxo que todo mundo entende. Também construo ferramentas para quem trabalha com agentes de IA, e algumas estão aqui.
-
-### Quests ativas
-
-<p>
-  <img src="assets/aprendiz.svg" height="64" align="left" alt="">
-  <a href="https://github.com/soulrocha/Claude-code-hero-journey"><b>Claude Code Hero Journey</b></a><br>
-  Uma HUD de RPG para o Claude Code: os Clawds mostram o que o agente está fazendo, um dragão barra os arquivos sensíveis e um grimório guarda o que você aprendeu.<br>
-  <code>beta · app desktop · pt-BR e inglês</code>
+<p align="center">
+  <img src="assets/perfil/jornada.svg" width="98.5%" alt="Jornada: na DTI Digital, dev full stack (clientes Pottencial e Ânima), Scrum Master (Hermes Pardini e Grupo Fleury) e Squad Leader (MRV&CO, 2 squads); hoje Coordenador de Tecnologia na LUZA Group">
 </p>
-<br clear="left">
 
-<p>
-  <img src="assets/ladino.svg" height="64" align="left" alt="">
-  <a href="https://github.com/soulrocha/snapmd"><b>snapmd</b></a><br>
-  Extrai Markdown fiel de SPAs, portais corporativos, modais abertos e apps web dinâmicos.<br>
-  <code>JavaScript</code>
+<p align="center">
+  Gosto de dar ao time referências claras de trabalho: revisão de código, documentação e um fluxo que todo mundo entende.<br>
+  Também construo ferramentas para quem trabalha com agentes de IA, e algumas estão aqui.
 </p>
-<br clear="left">
 
-<p>
-  <img src="assets/careerbounty.svg" height="64" align="left" alt="">
-  <a href="https://github.com/soulrocha/career-bounty"><b>CareerBounty</b></a><br>
-  Um agente completo dentro do Claude Code: CLI determinística em Node, skills e subagentes para o trabalho de linguagem e um painel local. O modelo só usa fatos com prova, e um hook barra qualquer envio que você não aprovou.<br>
-  <code>Node · zero dependências npm · CI · log auditável</code>
+<p align="center">
+  <a href="https://github.com/soulrocha/Claude-code-hero-journey"><img src="assets/perfil/quest-hero.svg" width="24%" alt="Claude Code Hero Journey: HUD de RPG para o Claude Code"></a>
+  <a href="https://github.com/soulrocha/snapmd"><img src="assets/perfil/quest-snapmd.svg" width="24%" alt="snapmd: a página viva vira Markdown pronto para LLM"></a>
+  <a href="https://github.com/soulrocha/career-bounty"><img src="assets/perfil/quest-cb.svg" width="24%" alt="CareerBounty: agente completo dentro do Claude Code"></a>
+  <a href="https://github.com/Louis-CFM/coucou/pull/879"><img src="assets/perfil/contrib.svg" width="24%" alt="Contribuição: Coucou, PR #879"></a>
 </p>
-<br clear="left">
 
-### Contribuições
-
-- **[Coucou](https://github.com/Louis-CFM/coucou)** (monitor de agentes de IA): [PR #879](https://github.com/Louis-CFM/coucou/pull/879) leva ao Windows a escolha de onde a ilha fica, em qualquer monitor.
-
-### Grimório
-
-<p>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,js&theme=dark" height="48" alt="C#, .NET, Node.js, JavaScript">
-  <img src="assets/sqlserver.svg" height="48" alt="SQL Server">
-  <img src="https://skillicons.dev/icons?i=php,wordpress,azure&theme=dark" height="48" alt="PHP, WordPress, Azure">
+<p align="center">
+  <img src="assets/perfil/guilda.svg" width="98.5%" alt="A guilda: Claude Code, Codex, Cursor e Antigravity">
 </p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,js,ts,angular&theme=dark" height="40" alt="C#, .NET, Node.js, JavaScript, TypeScript, Angular">
+  <img src="assets/sqlserver.svg" height="40" alt="SQL Server">
+  <img src="https://skillicons.dev/icons?i=php,wordpress,azure&theme=dark" height="40" alt="PHP, WordPress, Azure">
+</p>
+
+<details>
+<summary><b>Grimório completo</b></summary>
+<br>
 
 <table>
   <tr><td><b>Agentes de IA</b></td><td>Claude Code · Codex · Cursor · Antigravity</td></tr>
@@ -53,15 +40,13 @@ Gosto de dar ao time referências claras de trabalho: revisão de código, docum
   <tr><td><b>Entrega</b></td><td>Azure DevOps · Jira · Teams · CI/CD · revisão de código · Scrum e Kanban</td></tr>
 </table>
 
-<p>
-  <a href="https://www.linkedin.com/in/soulrocha"><img src="https://img.shields.io/badge/LinkedIn-soulrocha-0A66C2?style=for-the-badge" alt="LinkedIn: soulrocha"></a>
-</p>
+</details>
 
 <details>
 <summary><b>Read in English</b></summary>
 <br>
 
-Hi! I'm Saulo, Technology and Development Coordinator at **LUZA Group**, in Belo Horizonte, Brazil. Before that, at **DTI Digital**, I worked as a full-stack developer, Scrum Master and Squad Leader on teams building corporate systems and integrations.
+Hi! I'm Saulo, Technology and Development Coordinator at **LUZA Group**, in Belo Horizonte, Brazil. Before that, at **DTI Digital**, I was a full-stack developer (clients Pottencial and Ânima), Scrum Master (Hermes Pardini / Grupo Fleury) and Squad Leader of two squads at **MRV&CO**, working on corporate systems and integrations.
 
 I like giving teams clear working references: code review, documentation and a flow everyone understands. I also build tools for people who work with AI agents, and some of them live here.
 
@@ -82,5 +67,7 @@ I like giving teams clear working references: code review, documentation and a f
 - **Built with AI:** TypeScript, Angular, PrimeNG, PowerShell
 - **Cloud and integrations:** Azure Functions, Event Grid, Storage, APIs and microservices, SAP S/4HANA, Salesforce, IdentityServer, Keycloak, InterSystems IRIS
 - **Delivery:** Azure DevOps, Jira, Teams, CI/CD, code review, Scrum and Kanban
+
+<p><a href="https://www.linkedin.com/in/soulrocha"><b>Let's talk on LinkedIn →</b></a></p>
 
 </details>
