@@ -26,6 +26,18 @@ Gosto de dar ao time referências claras de trabalho: revisão de código, docum
 </p>
 <br clear="left">
 
+<p>
+  <img src="assets/careerbounty.svg" height="64" align="left" alt="">
+  <a href="https://github.com/soulrocha/career-bounty"><b>CareerBounty</b></a><br>
+  Um agente completo dentro do Claude Code: CLI determinística em Node, skills e subagentes para o trabalho de linguagem e um painel local. O modelo só usa fatos com prova, e um hook barra qualquer envio que você não aprovou.<br>
+  <code>Node · zero dependências npm · CI · log auditável</code>
+</p>
+<br clear="left">
+
+### Contribuições
+
+- **[Coucou](https://github.com/Louis-CFM/coucou)** (monitor de agentes de IA): [PR #879](https://github.com/Louis-CFM/coucou/pull/879) leva ao Windows a escolha de onde a ilha fica, em qualquer monitor.
+
 ### Grimório
 
 <p>
@@ -57,6 +69,11 @@ I like giving teams clear working references: code review, documentation and a f
 
 - **[Claude Code Hero Journey](https://github.com/soulrocha/Claude-code-hero-journey)**: a cozy RPG HUD for Claude Code. The Clawds show what the agent is doing, a dragon guards sensitive files and a grimoire keeps what you learned. `beta · desktop app`
 - **[snapmd](https://github.com/soulrocha/snapmd)**: high-fidelity Markdown from SPAs, enterprise portals, open modals and dynamic web apps.
+- **[CareerBounty](https://github.com/soulrocha/career-bounty)**: a full agent inside Claude Code. A deterministic Node CLI, skills and subagents for the language work, and a local panel. The model only uses facts backed by evidence, and a hook blocks anything you did not approve. `Node · zero npm dependencies · CI`
+
+**Contributions**
+
+- **[Coucou](https://github.com/Louis-CFM/coucou)** (AI agent monitor): [PR #879](https://github.com/Louis-CFM/coucou/pull/879) brings island placement, on any display, to Windows.
 
 **Grimoire**
 
