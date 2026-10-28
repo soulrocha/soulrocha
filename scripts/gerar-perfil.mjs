@@ -97,17 +97,17 @@ const pilula = (x, y, texto, cor) => {
 
 const salvar = (nome, svg) => writeFileSync(join(SAIDA, nome), svg, 'utf8')
 
-// ---------- Herói: o Líder de Guilda ----------
+// ---------- Cabeçalho: nome e cargo ----------
 salvar('heroi.svg', moldura(640, 300,
   `<ellipse cx="155" cy="236" rx="90" ry="10" fill="#000" fill-opacity=".35"/>` +
   `<g class="float">${aninhar('personagens/lider.svg', 30, 60, 250, 180)}</g>` +
-  `<text x="300" y="86" font-size="13" font-weight="700" letter-spacing="3" fill="${C.ouro}">LÍDER DE GUILDA</text>` +
+  `<text x="300" y="86" font-size="13" font-weight="700" letter-spacing="3" fill="${C.ouro}">TECH MANAGER</text>` +
   `<text x="300" y="126" font-size="36" font-weight="800" fill="${C.texto}">Saulo Rocha</text>` +
   `<text x="300" y="158" font-size="16" fill="${C.texto}" fill-opacity=".85">Coordenador de Tecnologia e</text>` +
   `<text x="300" y="180" font-size="16" fill="${C.texto}" fill-opacity=".85">Desenvolvimento · LUZA Group</text>` +
   chips(['liderança', 'integrações', 'agentes de IA'], 300, 204, C.ouro) +
   `<text x="300" y="256" font-size="13" fill="${C.apagado}">Belo Horizonte, Brasil · Ciência da Computação (UFOP)</text>`,
-  { titulo: 'Saulo Rocha, Líder de Guilda: Coordenador de Tecnologia e Desenvolvimento na LUZA Group' }))
+  { titulo: 'Saulo Rocha, Tech Manager: Coordenador de Tecnologia e Desenvolvimento na LUZA Group' }))
 
 // ---------- LinkedIn ----------
 salvar('linkedin.svg', moldura(340, 300,
@@ -129,7 +129,7 @@ salvar('linkedin.svg', moldura(340, 300,
     { periodo: '2026 – hoje', cargo: 'Coordenador de Tecnologia', org: 'LUZA Group', cliente: '' },
   ]
   const x0 = 130, x1 = 850, y = 96
-  let m = `<text x="28" y="36" font-size="13" font-weight="700" letter-spacing="3" fill="${C.apagado}">A JORNADA</text>` +
+  let m = `<text x="28" y="36" font-size="13" font-weight="700" letter-spacing="3" fill="${C.apagado}">TRAJETÓRIA</text>` +
     `<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="${C.ouro}" stroke-opacity=".35" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>` +
     `<line class="trilha" x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="${C.ouro}" stroke-width="3" pathLength="100" stroke-dasharray="100 100"/>`
   MARCOS.forEach((mc, i) => {
@@ -143,16 +143,16 @@ salvar('linkedin.svg', moldura(340, 300,
       (mc.cliente ? `<text x="${x}" y="${y + 78}" text-anchor="middle" font-size="12" fill="${C.teal}">${esc('cliente ' + mc.cliente)}</text>` : '')
   })
   salvar('jornada.svg', moldura(1000, 200, m, {
-    titulo: 'Jornada: na DTI Digital, dev full stack (Pottencial, Ânima), Scrum Master (Hermes Pardini, Grupo Fleury) e Squad Leader (MRV&CO); hoje Coordenador de Tecnologia na LUZA Group',
+    titulo: 'Trajetória: na DTI Digital, dev full stack (Pottencial, Ânima), Scrum Master (Hermes Pardini, Grupo Fleury) e Squad Leader (MRV&CO); hoje Coordenador de Tecnologia na LUZA Group',
     css: '.trilha{stroke-dashoffset:100;animation:trilha 6s ease-in-out infinite}@keyframes trilha{0%{stroke-dashoffset:100}60%,100%{stroke-dashoffset:0}}',
   }))
 }
 
-// ---------- Quests e contribuição ----------
-const QUESTS = [
-  { slug: 'hero', nome: 'Claude Code Hero Journey', status: 'beta', cor: C.laranja, sprite: ['aprendiz.svg', 168, 120],
+// ---------- Projetos e contribuição ----------
+const PROJETOS = [
+  { slug: 'hero', nome: 'Claude Code Hero Journey', status: 'estável', cor: C.laranja, sprite: ['aprendiz.svg', 168, 120],
     desc: 'HUD de RPG para o Claude Code: os Clawds mostram o que o agente está fazendo, um dragão barra os arquivos sensíveis e um grimório guarda o que você aprendeu.',
-    chips: ['TypeScript', 'app desktop'] },
+    chips: ['TypeScript', 'desktop · CLI'] },
   { slug: 'snapmd', nome: 'snapmd', status: 'ativo', cor: C.teal, sprite: ['ladino.svg', 168, 120],
     desc: 'Extensão para Chrome e Edge que transforma a página viva (formulários, grids, modais, iframes) em Markdown pronto para LLM. 100% local.',
     chips: ['JavaScript', 'Chrome · Edge'] },
@@ -160,10 +160,10 @@ const QUESTS = [
     desc: 'Agente completo no Claude Code: CLI determinística em Node, subagentes e painel local. Só usa fatos com prova, e um hook barra o que você não aprovou.',
     chips: ['Node', '0 deps npm'] },
 ]
-for (const q of QUESTS) {
+for (const q of PROJETOS) {
   const [arq, vw, vh] = q.sprite
   const alt = q.slug === 'cb' ? 70 : 92, larg = alt * (vw / vh)
-  salvar(`quest-${q.slug}.svg`, moldura(326, 300,
+  salvar(`projeto-${q.slug}.svg`, moldura(326, 300,
     `<rect width="326" height="128" fill="${q.cor}" fill-opacity=".1"/>` +
     `<g class="float">${aninhar(arq, (326 - larg) / 2, (128 - alt) / 2 + 4, larg, alt)}</g>` +
     pilula(312, 12, q.status, q.cor) +
@@ -183,15 +183,5 @@ for (const q of QUESTS) {
     chips(['open source', 'Windows'], 18, 262, C.roxo),
     { titulo: `Coucou, PR #879: ${desc}`, semEstrelas: true, fundo: C.painel }))
 }
-
-// ---------- A guilda ----------
-salvar('guilda.svg', moldura(1000, 200,
-  `<text x="28" y="36" font-size="13" font-weight="700" letter-spacing="3" fill="${C.apagado}">A GUILDA</text>` +
-  [['aprendiz.svg', 'Claude Code', 168, 120], ['personagens/codex.svg', 'Codex', 140, 100], ['personagens/cursor.svg', 'Cursor', 140, 100], ['personagens/antigravity.svg', 'Antigravity', 140, 100]].map(([f, n, vw, vh], i) => {
-    const alt = 114, larg = alt * (vw / vh), cx = 140 + i * 240
-    return `<g class="float" style="animation-delay:-${i * 0.8}s">${aninhar(f, cx - larg / 2, 40, larg, alt)}</g>` +
-      `<text x="${cx}" y="182" text-anchor="middle" font-size="14" font-weight="600" fill="${C.texto}">${n}</text>`
-  }).join(''),
-  { titulo: 'A guilda: Claude Code, Codex, Cursor e Antigravity' }))
 
 console.log('Blocos gerados em', SAIDA)
