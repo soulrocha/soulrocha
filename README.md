@@ -53,6 +53,14 @@ Ferramentas para quem trabalha com agentes de IA, todas com licença MIT, releas
 
 <a href="https://www.credly.com/badges/28313c1f-97bb-4b71-80f5-30f69e56a8fe"><img src="https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9553-f5e84eb359ba/image.png" width="110" alt="Professional Scrum Master I (PSM I), Scrum.org"></a>
 
+**OpenAI Academy**: três trilhas concluídas, com aprovação de 80% ou mais em cada avaliação.
+
+<p align="center">
+  <a href="https://www.credential.net/199211871"><img src="assets/certificados/openai-apply-ai-at-work.png" width="32%" alt="OpenAI Academy: Pathway Completion Certificate, Apply AI at Work"></a>
+  <a href="https://www.credential.net/199223383"><img src="assets/certificados/openai-api.png" width="32%" alt="OpenAI Academy: Pathway Completion Certificate, OpenAI API"></a>
+  <a href="https://www.credential.net/199217091"><img src="assets/certificados/openai-codex.png" width="32%" alt="OpenAI Academy: Pathway Completion Certificate, Build with AI - Codex"></a>
+</p>
+
 <details>
 <summary><b>Read in English</b></summary>
 <br>
@@ -84,5 +92,6 @@ I'm Saulo, Technology and Development Coordinator at **LUZA Group** in Belo Hori
 **Certifications**
 
 - [Professional Scrum Master I (PSM I)](https://www.credly.com/badges/28313c1f-97bb-4b71-80f5-30f69e56a8fe), Scrum.org, November 2026
+- OpenAI Academy pathway completion certificates, November 2026: [Apply AI at Work](https://www.credential.net/199211871), [OpenAI API](https://www.credential.net/199223383) and [Build with AI - Codex](https://www.credential.net/199217091)
 
 </details>
