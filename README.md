@@ -49,6 +49,10 @@ Ferramentas para quem trabalha com agentes de IA, todas com licença MIT, releas
 
 </details>
 
+### Certificações
+
+<a href="https://www.credly.com/badges/28313c1f-97bb-4b71-80f5-30f69e56a8fe"><img src="https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9553-f5e84eb359ba/image.png" width="110" alt="Professional Scrum Master I (PSM I), Scrum.org"></a>
+
 <details>
 <summary><b>Read in English</b></summary>
 <br>
@@ -76,5 +80,9 @@ I'm Saulo, Technology and Development Coordinator at **LUZA Group** in Belo Hori
 - **Cloud and integrations:** Azure Functions, Event Grid, Storage, APIs and microservices, SAP S/4HANA, Salesforce, IdentityServer, Keycloak, InterSystems IRIS
 - **AI in development:** Claude Code, Codex, Cursor, Antigravity
 - **Delivery:** Azure DevOps, Jira, CI/CD, code review, Scrum and Kanban
+
+**Certifications**
+
+- [Professional Scrum Master I (PSM I)](https://www.credly.com/badges/28313c1f-97bb-4b71-80f5-30f69e56a8fe), Scrum.org, November 2026
 
 </details>
