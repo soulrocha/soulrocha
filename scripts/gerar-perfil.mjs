@@ -12,7 +12,7 @@ mkdirSync(SAIDA, { recursive: true })
 
 const C = {
   ceu1: '#141a2d', ceu2: '#262d4a', ouro: '#d9b26a', ouroClaro: '#f2c14e', laranja: '#d97757',
-  teal: '#5fe3cf', roxo: '#a78bfa', texto: '#e6edf3', apagado: '#9aa4bf', li: '#0A66C2', painel: '#1b2138',
+  teal: '#5fe3cf', roxo: '#a78bfa', verde: '#7ee787', texto: '#e6edf3', apagado: '#9aa4bf', li: '#0A66C2', painel: '#1b2138',
 }
 const SANS = "font-family:'Segoe UI',system-ui,-apple-system,sans-serif"
 const MONO = "font-family:ui-monospace,'Cascadia Code',Consolas,monospace"
@@ -172,16 +172,24 @@ for (const q of PROJETOS) {
     chips(q.chips, 18, 262, q.cor),
     { titulo: `${q.nome}: ${q.desc}`, semEstrelas: true, fundo: C.painel }))
 }
-{
-  const desc = 'Contribuição open source: levei ao Windows a escolha de onde a ilha fica, em qualquer monitor.'
-  salvar('contrib.svg', moldura(326, 300,
+const CONTRIBS = [
+  { arquivo: 'contrib.svg', nome: 'Coucou · PR #879', status: 'PR aberto', cor: C.roxo,
+    icone: `<text x="163" y="108" text-anchor="middle" font-size="54" fill="${C.roxo}" fill-opacity=".85" filter="url(#glow)" class="mono">&lt;/&gt;</text>`,
+    desc: 'Contribuição open source: levei ao Windows a escolha de onde a ilha fica, em qualquer monitor.',
+    chips: ['open source', 'Windows'] },
+  { arquivo: 'contrib-polestar.svg', nome: 'Polestar · 18 PRs aceitos', status: 'aceitos', cor: C.verde,
+    icone: `<path d="M163 58 L171 91 L204 99 L171 107 L163 140 L155 107 L122 99 L155 91 Z" fill="${C.verde}" fill-opacity=".85" filter="url(#glow)"/>`,
+    desc: 'Traduzi para português do Brasil o addon de guias de WoW (interface e guias de todas as classes) e corrigi a janela de guias.',
+    chips: ['pt-BR', 'Lua'] },
+]
+for (const q of CONTRIBS) {
+  salvar(q.arquivo, moldura(326, 300,
     `<text x="18" y="40" font-size="13" font-weight="700" letter-spacing="3" fill="${C.apagado}">CONTRIBUIÇÃO</text>` +
-    pilula(312, 22, 'PR aberto', C.roxo) +
-    `<text x="163" y="108" text-anchor="middle" font-size="54" fill="${C.roxo}" fill-opacity=".85" filter="url(#glow)" class="mono">&lt;/&gt;</text>` +
-    `<text x="18" y="160" font-size="18" font-weight="700" fill="${C.roxo}">Coucou · PR #879</text>` +
-    quebrar(desc, 40).map((l, i) => `<text x="18" y="${184 + i * 18}" font-size="13" fill="${C.texto}" fill-opacity=".82">${esc(l)}</text>`).join('') +
-    chips(['open source', 'Windows'], 18, 262, C.roxo),
-    { titulo: `Coucou, PR #879: ${desc}`, semEstrelas: true, fundo: C.painel }))
+    pilula(312, 22, q.status, q.cor) + q.icone +
+    `<text x="18" y="160" font-size="18" font-weight="700" fill="${q.cor}">${esc(q.nome)}</text>` +
+    quebrar(q.desc, 40).slice(0, 4).map((l, i) => `<text x="18" y="${184 + i * 18}" font-size="13" fill="${C.texto}" fill-opacity=".82">${esc(l)}</text>`).join('') +
+    chips(q.chips, 18, 262, q.cor),
+    { titulo: `${q.nome}: ${q.desc}`, semEstrelas: true, fundo: C.painel }))
 }
 
 console.log('Blocos gerados em', SAIDA)
